@@ -43,7 +43,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170078, guid: 5a817478dbad24c4cb6c2aead80a2487, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player Variant
       objectReference: {fileID: 0}
     - target: {fileID: 488250, guid: 5a817478dbad24c4cb6c2aead80a2487, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91,6 +91,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9570132, guid: 5a817478dbad24c4cb6c2aead80a2487, type: 3}
       propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fe12edf1adfd8164e89fc8721c0e139f, type: 2}
+    - target: {fileID: 9570132, guid: 5a817478dbad24c4cb6c2aead80a2487, type: 3}
+      propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
