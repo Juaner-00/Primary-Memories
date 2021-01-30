@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     NavMeshAgent agent;
 
-    // bool isWalking
+    bool isWalking;
 
     private void Awake()
     {
@@ -37,14 +37,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
-            // isWalking = true;
+             isWalking = true;
+
         }
         else
         {
-            // isWalking = false
+            isWalking = false;
         }
 
 
-        // anim.SetBool("walking", isWalking);
+         anim.SetBool("walking", isWalking);
     }
 }
