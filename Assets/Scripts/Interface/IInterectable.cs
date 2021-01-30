@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IInterectuable
+public interface IInterectable
 {
-    bool IsInteractuable { get; }
+    float MaxRange { get; }
 
+    void OnStartHover();
+    void OnEndHover();
     void OnInteract();
 }
