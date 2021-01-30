@@ -14,5 +14,6 @@ public class DialogPopUp : MonoBehaviour
     {
         popUpBox.SetActive(true);
         popUpText.text = text;
+        anim.SetTrigger("Pop");
     }
 }
