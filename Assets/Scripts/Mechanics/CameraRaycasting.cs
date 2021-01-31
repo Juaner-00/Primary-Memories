@@ -10,6 +10,8 @@ public class CameraRaycasting : MonoBehaviour
     private IInterectable currentTarget;
     private Camera mainCamera;
 
+    private Vector3 point;
+
     private void Awake()
     {
         mainCamera = Camera.main;
@@ -23,7 +25,7 @@ public class CameraRaycasting : MonoBehaviour
         {
             if (currentTarget != null)
             {
-                currentTarget.OnInteract();
+                currentTarget.OnInteract(point);
             }
         }
     }
@@ -40,6 +42,8 @@ public class CameraRaycasting : MonoBehaviour
 
             if (interactable != null)
             {
+                point = hit.point;
+
                 if (hit.distance <= interactable.MaxRange)
                 {
                     if (interactable == currentTarget)
