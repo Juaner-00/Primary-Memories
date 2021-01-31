@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Lvl1UpAnimation : MonoBehaviour
 {
-    public Transform position1, position2;
+    public Transform position1, position2,position3;
     [SerializeField]
-    GameObject cam1, cam2, controlerUI;
+    GameObject cam1, cam2, botonPlay, botonExit;
     [SerializeField]
     float speed;
     [SerializeField]
     Animator wakeupAnimation;
-   
-    
 
-    bool activador = false;
+
+
+    bool activador = false, activadorExit = false;
 
     float t;
     // Start is called before the first frame update
@@ -34,7 +34,15 @@ public class Lvl1UpAnimation : MonoBehaviour
             {
                 cam1.SetActive(false);
                 cam2.SetActive(true);
-                wakeupAnimation.SetBool("presionoBotonplay", true);
+                
+            }
+        }
+        if (activadorExit == true)
+        {
+            cam1.transform.position = Vector3.MoveTowards(cam1.transform.position, position3.position,10* speed);
+            if(cam1.transform.position == position3.position)
+            {
+                Application.Quit();
             }
         }
     }
@@ -42,10 +50,17 @@ public class Lvl1UpAnimation : MonoBehaviour
     public void clickPlay()
     {
         activador = true;
-        
 
-        
-        
-        controlerUI.SetActive(false);
+        wakeupAnimation.SetBool("presionoBotonplay", true); 
+
+
+        botonExit.SetActive(false);
+        botonPlay.SetActive(false);
+    }
+    public void clickExit()
+    {
+        activadorExit = true;
+        botonExit.SetActive(false);
+        botonPlay.SetActive(false);
     }
 }

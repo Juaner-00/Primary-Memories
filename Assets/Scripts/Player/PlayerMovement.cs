@@ -33,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         isWalking = (agent.remainingDistance <= agent.stoppingDistance);
-
+        
+        
         anim.SetBool("walking", isWalking);
     }
 
