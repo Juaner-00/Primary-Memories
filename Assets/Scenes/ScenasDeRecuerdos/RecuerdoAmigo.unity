@@ -15065,7 +15065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eafca3a2d541634ba8f5f838835f534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: Nivel 1
+  nextLevelName: IntroMenu
 --- !u!114 &864715326
 MonoBehaviour:
   m_ObjectHideFlags: 0
