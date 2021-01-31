@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoAmigo.unity
+    guid: c76f716e2a9e0dc4683f58375fcf2402
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Nivel 1.unity
+    guid: f621da18d96db0247b6c34a7e559b76c
+  - enabled: 1
+    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoLiderando.unity
+    guid: 022169483427cda498170a6ac141d627
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Nivel 2.unity
+    guid: 4c8fc938ebbf501499dabfb289d31aef
+  - enabled: 1
+    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoTraicion 1.unity
+    guid: 8fe0068c9b5a8d14faf7285505b3001e
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Nivel 3.unity
+    guid: 25435c8622c6f1d459770b004c46644e
   m_configObjects: {}
