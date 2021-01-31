@@ -21,7 +21,6 @@ public class Ball : InteractableBase
         if (Vector3.Distance(transform.position, GameManager.Player.transform.position) <= maxRange)
         {
             PopUpSystem.Instance.PopUpText(textPopUp, transform.position + Vector3.up * 0.8f);
-            
         }
         else
         {
