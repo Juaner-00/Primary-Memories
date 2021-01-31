@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoAmigo.unity
     guid: c76f716e2a9e0dc4683f58375fcf2402
   - enabled: 1
-    path: Assets/Scenes/Niveles/IntroMenu.unity
-    guid: c9a9576681f9a024db4d819d1a90624f
-  - enabled: 1
     path: Assets/Scenes/Niveles/Nivel 1.unity
     guid: f621da18d96db0247b6c34a7e559b76c
   - enabled: 1
@@ -20,9 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Niveles/Nivel 2.unity
     guid: 4c8fc938ebbf501499dabfb289d31aef
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoTraicion 1.unity
+    guid: 8fe0068c9b5a8d14faf7285505b3001e
   - enabled: 1
     path: Assets/Scenes/Niveles/Nivel 3.unity
     guid: 25435c8622c6f1d459770b004c46644e
