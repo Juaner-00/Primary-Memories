@@ -35,4 +35,9 @@ public class _SceneManager : MonoBehaviour
         lsm.LoadScene(nextLevelName);
     }
 
+    public void ExitScene()
+    {
+        Application.Quit();
+    }
+
 }
