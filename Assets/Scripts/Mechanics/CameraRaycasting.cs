@@ -47,8 +47,6 @@ public class CameraRaycasting : MonoBehaviour
 
             if (interactable != null)
             {
-                Debug.DrawLine(ray.origin, hit.point, Color.red, 0.1f);
-
                 point = hit.point;
 
                 if (hit.distance <= range)
@@ -89,8 +87,6 @@ public class CameraRaycasting : MonoBehaviour
             }
             else
             {
-                Debug.DrawLine(ray.origin, ray.direction * range, Color.white, 0.1f);
-
                 if (currentTarget != null)
                 {
                     currentTarget.OnEndHover();
