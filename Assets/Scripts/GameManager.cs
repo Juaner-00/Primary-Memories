@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Texture2D cursorNormal;
+    [SerializeField] bool firstScene;
 
     public Texture2D CursorNormal => cursorNormal;
 
@@ -25,6 +26,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        if (firstScene)
+            player.GetComponent<Animator>().SetBool("FirstScene", firstScene);
+
         Cursor.SetCursor(cursorNormal, Vector2.zero, CursorMode.Auto);
     }
 
