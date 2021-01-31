@@ -7,15 +7,17 @@ public class PopUpSystem : MonoBehaviour
 {
     [SerializeField] float time;
 
-    GameObject popUpTextBox;
-    GameObject popUpTextImage;
-    TMP_Text textText;
-    Animator animText;
+    [Header("Text")]
+    [SerializeField] GameObject popUpTextBox;
+    [SerializeField] GameObject popUpTextImage;
+    [SerializeField] TMP_Text textText;
+    [SerializeField] Animator animText;
 
-    GameObject popUpThinkingBox;
-    GameObject popUpThinkingImage;
-    TMP_Text thinkingText;
-    Animator animThinking;
+    [Header("Thinking")]
+    [SerializeField] GameObject popUpThinkingBox;
+    [SerializeField] GameObject popUpThinkingImage;
+    [SerializeField] TMP_Text thinkingText;
+    [SerializeField] Animator animThinking;
 
     static PopUpSystem instance;
     public static PopUpSystem Instance => instance;
@@ -28,16 +30,6 @@ public class PopUpSystem : MonoBehaviour
         if (instance != null)
             Destroy(gameObject);
         instance = this;
-
-        popUpTextBox = GameObject.FindGameObjectWithTag("Text");
-        popUpTextImage = popUpTextBox.transform.GetChild(0).gameObject;
-        textText = popUpTextImage.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        animText = popUpTextImage.GetComponent<Animator>();
-
-        popUpThinkingBox = GameObject.FindGameObjectWithTag("Think");
-        popUpThinkingImage = popUpThinkingBox.transform.GetChild(0).gameObject;
-        thinkingText = popUpThinkingImage.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        animThinking = popUpThinkingImage.GetComponent<Animator>();
     }
 
     private void Start()
@@ -57,6 +49,8 @@ public class PopUpSystem : MonoBehaviour
 
     IEnumerator ShowText(string text, Vector3 pos)
     {
+        popUpTextBox.SetActive(true);
+
         popUpTextImage.transform.position = mainCamera.WorldToScreenPoint(pos);
 
         textText.text = text;
@@ -69,6 +63,8 @@ public class PopUpSystem : MonoBehaviour
 
     IEnumerator ShowThinking(string text, Vector3 pos)
     {
+        popUpThinkingBox.SetActive(true);
+
         popUpThinkingImage.transform.position = mainCamera.WorldToScreenPoint(pos);
 
         thinkingText.text = text;
