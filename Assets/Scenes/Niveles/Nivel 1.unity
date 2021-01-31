@@ -499,10 +499,13 @@ Transform:
   m_PrefabInstance: {fileID: 64574664}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
 <<<<<<< HEAD
 =======
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!4 &66548107
@@ -526,6 +529,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
 >>>>>>> main
 =======
@@ -533,6 +537,8 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!1001 &75713889
@@ -1167,6 +1173,7 @@ Transform:
   m_PrefabInstance: {fileID: 2047788870}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 --- !u!1 &302833662 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 180616, guid: fa861eb01830e9947a3966355fb0b3e5,
@@ -1198,6 +1205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa93885d0fd0aec4dae75ac580f11fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!4 &313325345 stripped
@@ -1297,8 +1306,11 @@ Transform:
   - {fileID: 1150642031}
   - {fileID: 560297529}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
   - {fileID: 815024883}
@@ -3227,8 +3239,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabff3cbe4a4be24a90f7b23e155e025, type: 3}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!1001 &716672599
@@ -5251,6 +5266,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13604bd354174b4eb3fb42a5098c4f3, type: 3}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
   m_SourcePrefab: {fileID: 100100000, guid: d3838916a07877c4e951a3c92b56d39c, type: 3}
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
@@ -5293,6 +5309,8 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0, y: 1.1013372, z: -0.000000003850225}
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!1001 &1040622008
@@ -7263,8 +7281,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3f8f1a1e2a428a4caaa99166d9b94fe, type: 3}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!1 &1531799635
@@ -7360,6 +7381,7 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
 >>>>>>> main
 =======
@@ -7433,6 +7455,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa861eb01830e9947a3966355fb0b3e5, type: 3}
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!1001 &1536180641
@@ -8756,6 +8780,11 @@ GameObject:
   - component: {fileID: 1800341642}
   - component: {fileID: 1800341641}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+  - component: {fileID: 1800341644}
+  - component: {fileID: 1800341643}
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
   - component: {fileID: 1800341644}
   - component: {fileID: 1800341643}
@@ -8808,6 +8837,7 @@ MonoBehaviour:
   m_ComponentOwner: {fileID: 459099970}
 --- !u!4 &1800341642
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
   m_IsActive: 1
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
@@ -8856,14 +8886,19 @@ MonoBehaviour:
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 <<<<<<< HEAD:Assets/Scenes/David/Level1.unity
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
   m_GameObject: {fileID: 1800341640}
@@ -8944,6 +8979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 100
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
   m_GameObject: {fileID: 1781654118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -8979,6 +9015,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 100
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 --- !u!4 &1803178400 stripped
@@ -10395,6 +10433,7 @@ Transform:
   m_LocalRotation: {x: 0.056787286, y: -0.6531523, z: 0.049225394, w: 0.75348806}
   m_LocalPosition: {x: -26.274244, y: 17.7985, z: -118.74172}
 <<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
+<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 1.unity
 =======
   m_LocalPosition: {x: -23.80208, y: 19.577599, z: -120.83574}
 >>>>>>> main
@@ -10402,6 +10441,8 @@ Transform:
   m_LocalRotation: {x: 0.052578174, y: -0.653417, z: 0.04557677, w: 0.7537934}
   m_LocalPosition: {x: -22.427097, y: 20.186369, z: -122.23782}
 >>>>>>> main:Assets/Scenes/Niveles/Nivel 1.unity
+=======
+>>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
 =======
 >>>>>>> parent of 65306a0... cambios raros:Assets/Scenes/David/Level1.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
