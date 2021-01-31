@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
 
     public Texture2D CursorNormal => cursorNormal;
 
+    static GameObject player;
+    public static GameObject Player => player;
+
     static GameManager instance;
     public static GameManager Instance => instance;
 
@@ -16,6 +19,8 @@ public class GameManager : MonoBehaviour
         if (instance != null)
             Destroy(gameObject);
         instance = this;
+
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Start()
