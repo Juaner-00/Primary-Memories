@@ -7,13 +7,13 @@ public class PopUpSystem : MonoBehaviour
 {
     [SerializeField] float time;
 
-    [SerializeField] GameObject popUpTextBox;
-    [SerializeField] GameObject popUpTextImage;
+    GameObject popUpTextBox;
+    GameObject popUpTextImage;
     TMP_Text textText;
     Animator animText;
 
-    [SerializeField] GameObject popUpThinkingBox;
-    [SerializeField] GameObject popUpThinkingImage;
+    GameObject popUpThinkingBox;
+    GameObject popUpThinkingImage;
     TMP_Text thinkingText;
     Animator animThinking;
 
