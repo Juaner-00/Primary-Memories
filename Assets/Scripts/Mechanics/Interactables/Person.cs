@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Person : InteractableBase
+public class Ball : InteractableBase
 {
     [SerializeField] float maxRange;
     [SerializeField] Texture2D cursorHover;
@@ -20,11 +20,11 @@ public class Person : InteractableBase
     {
         if (Vector3.Distance(transform.position, GameManager.Player.transform.position) <= maxRange)
         {
-            PopUpSystem.Instance.PopUpText(textPopUp, GameManager.Player.transform.position + Vector3.up * 2f);
+            PopUpSystem.Instance.PopUpText(textPopUp, transform.position + Vector3.up * 0.8f);
         }
         else
         {
-            PopUpSystem.Instance.PopUpThinking("Can't reach that", GameManager.Player.transform.position + Vector3.up * 2f);
+            PopUpSystem.Instance.PopUpThinking("Can't reach that", GameManager.Player.transform.position + Vector3.up * 3);
         }
     }
 }
