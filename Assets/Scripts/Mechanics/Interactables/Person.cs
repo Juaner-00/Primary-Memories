@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : InteractableBase
+public class Person : InteractableBase
 {
     [SerializeField] float maxRange;
     [SerializeField] Texture2D cursorHover;
@@ -20,7 +20,7 @@ public class Ball : InteractableBase
     {
         if (Vector3.Distance(transform.position, GameManager.Player.transform.position) <= maxRange)
         {
-            PopUpSystem.Instance.PopUpText(textPopUp, transform.position + Vector3.up * 2);
+            PopUpSystem.Instance.PopUpThinking(textPopUp, GameManager.Player.transform.position + Vector3.up * 3);
         }
         else
         {
