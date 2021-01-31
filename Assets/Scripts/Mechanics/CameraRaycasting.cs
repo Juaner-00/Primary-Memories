@@ -44,7 +44,7 @@ public class CameraRaycasting : MonoBehaviour
             {
                 point = hit.point;
 
-                if (hit.distance <= interactable.MaxRange)
+                if (hit.distance <= range)
                 {
                     if (interactable == currentTarget)
                     {
