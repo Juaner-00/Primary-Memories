@@ -12,13 +12,18 @@ public class CameraRaycasting : MonoBehaviour
 
     private Vector3 point;
 
+    
+    
+
     private void Awake()
     {
+        
         mainCamera = Camera.main;
     }
 
     private void Update()
     {
+        
         RaycastForInteractable();
 
         if (Input.GetMouseButtonDown(0))
