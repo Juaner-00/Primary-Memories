@@ -16,19 +16,13 @@ public abstract class InteractableBase : MonoBehaviour, IInterectable
 
     public abstract void OnInteract(Vector3 point);
 
-    public virtual bool CanInteract()
+    public virtual void OnEndHover()
     {
-        return true;
+        Cursor.SetCursor(GameManager.Instance.CursorNormal, Vector2.zero, CursorMode.Auto);
     }
 
     public virtual void OnStartHover()
     {
-        Cursor.SetCursor(CursorHover, new Vector2(16, 16), CursorMode.Auto);
+        Cursor.SetCursor(CursorHover, Vector2.zero, CursorMode.Auto);
     }
-
-    public virtual void OnEndHover()
-    {
-        Cursor.SetCursor(GameManager.Instance.CursorNormal, new Vector2(16, 16), CursorMode.Auto);
-    }
-
 }
