@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoAmigo.unity
     guid: c76f716e2a9e0dc4683f58375fcf2402
   - enabled: 1
-    path: Assets/Scenes/David/Level1.unity
+    path: Assets/Scenes/Niveles/Nivel 1.unity
     guid: f621da18d96db0247b6c34a7e559b76c
   - enabled: 1
     path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoLiderando.unity
