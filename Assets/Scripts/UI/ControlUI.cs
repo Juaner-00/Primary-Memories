@@ -6,7 +6,7 @@ public class ControlUI : MonoBehaviour
 {
     public Transform position1, position2, position3;
     [SerializeField]
-    GameObject cam1, cam2, botonPlay, botonExit;
+    GameObject cam1, cam2;
     [SerializeField]
     float speed;
     [SerializeField]
@@ -21,46 +21,23 @@ public class ControlUI : MonoBehaviour
     void Start()
     {
         cam1.transform.position = position1.position;
+        wakeupAnimation.SetBool("presionoBotonplay", true);
     }
 
     // Update is called once per frame
     void Update()
     {
         t += Time.deltaTime;
-        if (activador == true)
-        {
+     
             cam1.transform.position = Vector3.MoveTowards(cam1.transform.position, position2.position, speed);
             if (cam1.transform.position == position2.position)
             {
                 cam1.SetActive(false);
                 cam2.SetActive(true);
 
-            }
-        }
-        if (activadorExit == true)
-        {
-            cam1.transform.position = Vector3.MoveTowards(cam1.transform.position, position3.position, 10 * speed);
-            if (cam1.transform.position == position3.position)
-            {
-                Application.Quit();
-            }
-        }
+            }  
+     
     }
 
-    public void clickPlay()
-    {
-        activador = true;
 
-        wakeupAnimation.SetBool("presionoBotonplay", true);
-
-
-        botonExit.SetActive(false);
-        botonPlay.SetActive(false);
-    }
-    public void clickExit()
-    {
-        activadorExit = true;
-        botonExit.SetActive(false);
-        botonPlay.SetActive(false);
-    }
 }
