@@ -17,19 +17,25 @@ AnimatorStateMachine:
     m_Position: {x: 0, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2198025005879435618}
-    m_Position: {x: 420, y: 300, z: 0}
+    m_Position: {x: 590, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6777413562560700356}
     m_Position: {x: 110, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3860672138005419169}
-    m_Position: {x: 420, y: 200, z: 0}
+    m_Position: {x: 590, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4388618691122783640}
-    m_Position: {x: 200, y: 300, z: 0}
+    m_Position: {x: 370, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5379240766677167680}
-    m_Position: {x: 200, y: 200, z: 0}
+    m_Position: {x: 370, y: 190, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -1931675549339110438}
+    m_Position: {x: -270, y: 180, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4811109141127096562}
+    m_Position: {x: -270, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -91,6 +97,32 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &-1931675549339110438
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Injued Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ce5ff72fbe87c934e8a116abf85e3e59, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-1050356962107480566
 AnimatorState:
   serializedVersion: 5
@@ -268,6 +300,32 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 0}
+--- !u!1102 &4811109141127096562
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Injured Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 38b78639088cd5046aaff910a7f3ffab, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &5379240766677167680
 AnimatorState:
   serializedVersion: 5
