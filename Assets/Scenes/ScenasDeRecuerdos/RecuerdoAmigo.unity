@@ -15095,6 +15095,11 @@ PrefabInstance:
       propertyPath: time
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1265674068624143316, guid: e6a3200a182fb9042bba90c8e5ae5399,
+        type: 3}
+      propertyPath: nextLevelName
+      value: Nivel 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1265674068624143317, guid: e6a3200a182fb9042bba90c8e5ae5399,
         type: 3}
       propertyPath: m_LocalPosition.x
