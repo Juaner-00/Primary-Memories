@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Scenes/Niveles/Nivel 3.meta
-guid: e6d80d48640dea948a3ba4e1404683db
-=======
-guid: 6245dfb85281c854dbb3f14631b793c8
->>>>>>> main:Assets/Scripts/UI.meta
+guid: 3c2e686971ba59e4a872681715a2d56f
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
