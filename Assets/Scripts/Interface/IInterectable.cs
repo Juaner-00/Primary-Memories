@@ -9,4 +9,5 @@ public interface IInterectable
     void OnStartHover();
     void OnEndHover();
     void OnInteract(Vector3 point);
+    bool CanInteract();
 }
