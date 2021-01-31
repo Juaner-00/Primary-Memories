@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Niveles/Nivel 2.unity
     guid: 4c8fc938ebbf501499dabfb289d31aef
   - enabled: 1
-    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoTraicion 1.unity
+    path: Assets/Scenes/ScenasDeRecuerdos/RecuerdoTraicion.unity
     guid: 8fe0068c9b5a8d14faf7285505b3001e
   - enabled: 1
     path: Assets/Scenes/Niveles/Nivel 3.unity
