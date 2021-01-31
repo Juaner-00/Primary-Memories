@@ -1034,7 +1034,6 @@ Transform:
   m_PrefabInstance: {fileID: 201343056}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!4 &231911513 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7786976200248526312, guid: 0aab94f34258a9d41a343b734973d60d,
@@ -1141,8 +1140,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.69679826
   m_Center: {x: -2.989964e-11, y: 0.69679826, z: 0.0010032651}
-=======
->>>>>>> parent of 65306a0... cambios raros
 =======
 >>>>>>> parent of 65306a0... cambios raros
 --- !u!1001 &265940519
@@ -2698,15 +2695,9 @@ Camera:
     width: 1
     height: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
-=======
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
->>>>>>> parent of 65306a0... cambios raros
 =======
   near clip plane: 0.3
   far clip plane: 1000
@@ -2737,13 +2728,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697172713}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalRotation: {x: -0.13679639, y: -0.6712964, z: 0.12805663, w: -0.7171118}
   m_LocalPosition: {x: -23.875404, y: 22.48355, z: -2.8054311}
-=======
-  m_LocalRotation: {x: 0, y: 0.6732707, z: 0, w: 0.7393961}
-  m_LocalPosition: {x: -32.3, y: 27.28, z: -22.03}
->>>>>>> parent of 65306a0... cambios raros
 =======
   m_LocalRotation: {x: 0, y: 0.6732707, z: 0, w: 0.7393961}
   m_LocalPosition: {x: -32.3, y: 27.28, z: -22.03}
@@ -4318,7 +4304,6 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: feab504d9437e5d4295f723466661538, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1001 &1442431284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4480,8 +4465,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1442431284}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> parent of 65306a0... cambios raros
 =======
 >>>>>>> parent of 65306a0... cambios raros
 --- !u!1001 &1527096376
