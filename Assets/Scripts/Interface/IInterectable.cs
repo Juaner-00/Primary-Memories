@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public interface IInterectable
 {
     float MaxRange { get; }
+    Texture2D CursorHover { get; }
+
 
     void OnStartHover();
     void OnEndHover();
-    void OnInteract();
+    void OnInteract(Vector3 point);
 }

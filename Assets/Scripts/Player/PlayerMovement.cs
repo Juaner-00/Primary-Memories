@@ -8,10 +8,19 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     NavMeshAgent agent;
 
+    static PlayerMovement instance;
+    public static PlayerMovement Instance { get => instance; }
+
+
     bool isWalking;
 
     private void Awake()
     {
+        if (instance != null)
+            Destroy(gameObject);
+        else
+            instance = this;
+
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
     }
@@ -23,29 +32,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        isWalking = (agent.remainingDistance <= agent.stoppingDistance);
 
-        RaycastHit hit;
+        anim.SetBool("walking", isWalking);
+    }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (Physics.Raycast(ray, out hit, 100))
-            {
-                agent.destination = hit.point;
-            }
-        }
-
-        if (agent.remainingDistance <= agent.stoppingDistance)
-        {
-             isWalking = true;
-
-        }
-        else
-        {
-            isWalking = false;
-        }
-
-
-         anim.SetBool("walking", isWalking);
+    public void Move(Vector3 pos)
+    {
+        agent.destination = pos;
     }
 }
