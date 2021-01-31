@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : InteractableBase
+public class EspadaInteract : InteractableBase
 {
     [SerializeField] float maxRange;
     [SerializeField] Texture2D cursorHover;
+    [SerializeField]
+    GameObject espadaFunda, espadaMano, espadaSuelo;
 
     [SerializeField] string textPopUp;
+    [SerializeField] float tiempo;
 
 
     public override void Start()
@@ -20,7 +23,9 @@ public class Ball : InteractableBase
     {
         if (Vector3.Distance(transform.position, GameManager.Player.transform.position) <= maxRange)
         {
+            GameManager.Player.GetComponent<Animator>().SetTrigger("espada");
             PopUpSystem.Instance.PopUpText(textPopUp, transform.position + Vector3.up * 0.8f);
+            Invoke("Recoger",tiempo);
             
         }
         else
@@ -28,4 +33,13 @@ public class Ball : InteractableBase
             PopUpSystem.Instance.PopUpThinking("Can't reach that", GameManager.Player.transform.position + Vector3.up * 3);
         }
     }
+    public void Recoger()
+    {
+        espadaSuelo.GetComponent<MeshRenderer>().enabled = false;
+        espadaSuelo.GetComponent<BoxCollider>().enabled = false;
+        espadaMano.GetComponent<MeshRenderer>().enabled = true;
+    }
+    
+
+
 }
