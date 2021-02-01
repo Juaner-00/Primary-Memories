@@ -15041,7 +15041,17 @@ PrefabInstance:
     - target: {fileID: 5544312946877473800, guid: bb132e5e6d88c4c43968bf1b47a67d67,
         type: 3}
       propertyPath: nextLevelName
-      value: Level 1
+      value: IntroMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8625173111245236197, guid: bb132e5e6d88c4c43968bf1b47a67d67,
+        type: 3}
+      propertyPath: prefabHelper
+      value: Basic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8625173111245236197, guid: bb132e5e6d88c4c43968bf1b47a67d67,
+        type: 3}
+      propertyPath: selectedLoadingIndex
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8860234589393306776, guid: bb132e5e6d88c4c43968bf1b47a67d67,
         type: 3}

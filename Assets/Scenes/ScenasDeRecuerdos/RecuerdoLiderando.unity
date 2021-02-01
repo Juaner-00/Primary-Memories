@@ -3127,12 +3127,12 @@ PrefabInstance:
     - target: {fileID: 5544312946877473800, guid: bb132e5e6d88c4c43968bf1b47a67d67,
         type: 3}
       propertyPath: nextLevelName
-      value: Level 2
+      value: Nivel 2
       objectReference: {fileID: 0}
     - target: {fileID: 5544312946877473800, guid: bb132e5e6d88c4c43968bf1b47a67d67,
         type: 3}
       propertyPath: time
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5544312946877473800, guid: bb132e5e6d88c4c43968bf1b47a67d67,
         type: 3}
